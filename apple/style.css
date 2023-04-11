@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+
+/* header alanı ------------------------------------------------------------*/
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(66, 66, 69);
+    text-align: center;
+    /* menü deki a Tag ları ortalandı */
+    padding: 12px;
+}
+
+header a {
+    color: rgb(210, 210, 215);
+    padding: 15px;
+    margin: 10px;
+}
+
+
+header a:hover {
+    color: white;
+}
+
+
+header img {
+    width: 15px;
+    height: 17px;
+}
+
+/* menü deki logolar png ler küçültülerek uygulandı. ilerde icon kullanacaz. */
+
+
+
+/* main alanı ------------------------------------------------------------*/
+
+main section {
+    margin-bottom: 5px;
+    /* her section arasına margin ile boşluk konuldu */
+    padding-top: 50px;
+    /* h2 leri alta doğru aldık */
+    text-align: center;
+    background-color: black;
+
+}
+
+
+main section.iPhone14 {
+    background-color: white;
+    color:black;
+}
+
+main section.iPhone14Pro h2 {
+  color: rgb(232, 232, 237);
+    
+}
+
+main section h2 {
+    font-size: 3rem;
+    margin-bottom: -15px;
+    margin-top: 0;
+}
+
+
+main section p {
+    font-size: 1rem;
+    color: rgb(210, 210, 215);
+}
+
+main section.iPhone14 p{
+    color: rgb(66, 66, 69);
+}
+
+
+main section p.satıs-tarih {
+    color: rgb(134, 134, 139);
+    font-size: 1rem;
+}
+
+main section a {
+    margin-right: 30px;
+    margin-bottom: 70px;
+}
+
+main section p.link a {
+    color: rgb(41, 151, 255);
+    font-size: 1rem;
+}
+
+main section p.link {
+    margin-bottom: 40px;
+    /* link ler ile telefon resmi arasına boşluk konuldu */
+}
+
+/* img leri boyutlandırdım */
+main section.iPhone14 img{
+    width: 25%;
+    height: auto;
+}
+
+main section img{
+    width: 50%;
+    height: auto;
+}
+
+main section.Watch img{
+   width: 15%;
+   height: auto;
+}
+
+main section.Watch p img{
+    width: 27%;
+    height: auto;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10px;
+height: 60px;
+}
+.mac{
+
+}
