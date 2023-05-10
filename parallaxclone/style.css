@@ -1,0 +1,73 @@
+.section-one{
+height: 100vh;     
+background-image: url(img/image1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+opacity: 0.8;
+background-attachment:fixed;
+
+}
+.text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  .text .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+    border: none !important;
+  }
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+
+  .section-two{
+    height: 100vh;     
+    background-image: url(img/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 0.8;
+    background-attachment:fixed;
+
+    }
+    .text .border{
+        background-color:#111;
+        color:#fff;
+        padding:20px;
+      }
+      
+      .text .border.trans{
+        background-color:transparent;
+      }
+      .section-three{
+        height: 100vh;     
+        background-image: url(img/image3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        opacity: 0.8;
+        background-attachment:fixed;
+
+        }   
+      
